@@ -4,12 +4,6 @@ const controller = require("../controllers/userController");
 const jwt = require("jsonwebtoken");
 const config = require("config");
 const multer = require("multer");
-const LocalStorage = require("node-localstorage").LocalStorage,
-  localStorage = new LocalStorage("./scratch");
-
-// const bcrypt = require("bcrypt")
-
-const loginModel = require("../models/userModel");
 const auth = require("../middlewares/authMW");
 
 router.get("/register", (req, res) => {
