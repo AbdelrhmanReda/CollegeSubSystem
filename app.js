@@ -14,7 +14,6 @@ app.use(expressLayout);
 app.set("view engine", "ejs");
 app.use("/", require("./routes/index"));
 app.use("/users", users);
-// app.use("/users/login",require("./routes/login"))
 app.listen(port, (req, res) => {
   console.log(`Listening on port ${port}...`);
 });
