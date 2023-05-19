@@ -1,0 +1,36 @@
+{
+  "name": "traversy-media-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testfinal.js",
+  "scripts": {
+    "start": "node testfinal.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.8",
+    "cookie-parser": "^1.4.6",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "multer": "^1.4.5-lts.1",
+    "node-localstorage": "^2.2.1",
+    "passport": "^0.6.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
