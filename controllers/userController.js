@@ -44,7 +44,7 @@ let getStudent = async (req, res) => {
     else res.send("تم اداء التربية العسكرية");
     // else res.send(std);
   } catch (error) {
-    res.send("ارجع يلا");
+    res.json({message:`${error}`});
   }
 };
 
